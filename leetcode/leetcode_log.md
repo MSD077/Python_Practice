@@ -14,3 +14,16 @@ Notes:
 - Sorting approach has O(N log N) time complexity
 - Bucket array approach has O(N) time complexity
 
+## Day 2 – Jan 29, 2026
+
+Problem:
+- Leetcode 242. Valid Anagram
+d
+Topics:
+- Hash Map
+- String
+
+Notes:
+- Used hashmap / Counter to count character frequencies
+- Compared counts of both strings
+- Time Complexity: O(n)
