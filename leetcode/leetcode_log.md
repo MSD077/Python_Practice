@@ -45,3 +45,21 @@ Notes:
 - Second pass multiplies product of elements to the right
 - Time Complexity: O(n)
 - Space Complexity: O(1) extra space (excluding output)
+
+## Day 4 – Jan 31, 2026
+
+Problem:
+- Leetcode 128. Longest Consecutive Sequence
+
+Topics:
+- Hash Set
+- Array
+- Greedy
+
+Notes:
+- Converted array to set for O(1) lookup operations
+- Only start counting from sequence beginnings (when i-1 not in set)
+- Avoided redundant work by skipping elements in the middle of sequences
+- Used greedy approach to find maximum consecutive length
+- Time Complexity: O(n)
+- Space Complexity: O(n)
