@@ -48,7 +48,7 @@ Notes:
 
 ## Day 4 – Jan 31, 2026
 
-Problem:
+Problem:    
 - Leetcode 128. Longest Consecutive Sequence
 
 Topics:
@@ -61,5 +61,20 @@ Notes:
 - Only start counting from sequence beginnings (when i-1 not in set)
 - Avoided redundant work by skipping elements in the middle of sequences
 - Used greedy approach to find maximum consecutive length
+- Time Complexity: O(n)
+- Space Complexity: O(n)
+
+## Day 5 – Feb 01, 2026
+
+Problem:
+- Leetcode 217. Contains Duplicate
+
+Topics:
+- Array
+- Hash Set
+
+Notes:
+- Used a set to track unique elements
+- Compared length of array vs set
 - Time Complexity: O(n)
 - Space Complexity: O(n)
