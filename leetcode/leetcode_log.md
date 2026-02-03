@@ -78,3 +78,19 @@ Notes:
 - Compared length of array vs set
 - Time Complexity: O(n)
 - Space Complexity: O(n)
+
+## Day 6 – Feb 02, 2026
+
+Problem:
+- Leetcode 448. Find All Numbers Disappeared in an Array
+
+Topics:
+- Array
+- In-place marking
+
+Notes:
+- Used index mapping (value → index)
+- Marked visited indices by negating values
+- Missing numbers correspond to positive indices
+- Time Complexity: O(n)
+- Space Complexity: O(1) (ignoring output array)
