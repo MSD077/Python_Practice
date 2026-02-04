@@ -94,3 +94,17 @@ Notes:
 - Missing numbers correspond to positive indices
 - Time Complexity: O(n)
 - Space Complexity: O(1) (ignoring output array)
+
+## Day 7 – Feb 03, 2026
+
+Problem:
+- Leetcode 169. Majority Element
+
+Topics:
+- Array
+- Boyer–Moore Voting Algorithm
+
+Notes:
+- Used cancellation logic to find majority element
+- Maintains candidate and counter
+- Optimal O(n) time and O(1) space solution
