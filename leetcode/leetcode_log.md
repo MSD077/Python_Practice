@@ -108,3 +108,18 @@ Notes:
 - Used cancellation logic to find majority element
 - Maintains candidate and counter
 - Optimal O(n) time and O(1) space solution
+
+## Day 8 – Feb 04, 2026
+
+Problem:
+- Leetcode 350. Intersection of Two Arrays II
+
+Topics:
+- Hash Map
+- Frequency Counting
+
+Notes:
+- Built frequency map on smaller array
+- Iterated through second array and decremented counts
+- Time: O(n + m)
+- Space: O(min(n, m))
