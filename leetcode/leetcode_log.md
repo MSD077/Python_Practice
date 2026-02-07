@@ -123,3 +123,31 @@ Notes:
 - Iterated through second array and decremented counts
 - Time: O(n + m)
 - Space: O(min(n, m))
+
+## Day 9 – Feb 05, 2026
+
+- Leetcode 643. Maximum Average Subarray I
+
+Topics:
+- Sliding Window
+- Array
+
+Notes:
+- Used fixed-size sliding window
+- Time: O(n)
+- Space: O(1)
+
+## Day 10 – Feb 06, 2026
+
+Problem:
+- Leetcode 1480. Running Sum of 1D Array
+
+Topics:
+- Prefix Sum
+- Array
+
+Notes:
+- Computed cumulative sum in-place
+- Updated each element with sum of all previous elements
+- Time: O(n)
+- Space: O(1)
