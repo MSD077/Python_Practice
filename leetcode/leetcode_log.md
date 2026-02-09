@@ -151,3 +151,30 @@ Notes:
 - Updated each element with sum of all previous elements
 - Time: O(n)
 - Space: O(1)
+
+## Day 11 – Feb 07, 2026
+
+Problem:
+- Leetcode 704. Binary Search
+
+Topics:
+- Binary Search
+
+Notes:
+- Implemented iterative search on sorted array. This solution is not optimized.
+- Time: O(n)
+- Space: O(1)
+
+## Day 12 – Feb 08, 2026
+
+Problem:
+- Leetcode 704. Binary Search
+
+Topics:
+- Binary Search
+
+Notes:
+- Implemented iterative binary search on sorted array. Optimized solution
+- Reduced search space by half each iteration
+- Time: O(log n)
+- Space: O(1)
