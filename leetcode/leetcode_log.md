@@ -178,3 +178,33 @@ Notes:
 - Reduced search space by half each iteration
 - Time: O(log n)
 - Space: O(1)
+
+## Day 13 – Feb 09, 2026
+
+Problem:
+- Leetcode 278. First Bad Version
+
+Topics:
+- Binary Search
+
+Notes:
+- Used binary search to find the first bad version
+- Time: O(log n)
+- Space: O(1)
+
+## Day 13 – Feb 09, 2026
+
+Problem:
+- Stratascratch SQL: Premium vs Freemium
+
+Topics:
+- SQL CTE
+- Case
+- Joins
+- Group By
+
+Notes:
+- Joined user, account, and download tables
+- Used conditional aggregation to count downloads by customer type
+- Filtered dates where non-paying downloads exceed paying downloads
+- Sorted results by earliest date
