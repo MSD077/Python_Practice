@@ -208,3 +208,17 @@ Notes:
 - Used conditional aggregation to count downloads by customer type
 - Filtered dates where non-paying downloads exceed paying downloads
 - Sorted results by earliest date
+
+## Day 14 – Feb 10, 2026
+
+Problem:
+- Leetcode 167. Two Sum II – Input Array Is Sorted
+
+Topics:
+- Two Pointers
+
+Notes:
+- Used two pointers starting from both ends of sorted array
+- Moved pointers based on current sum vs target
+- Time: O(n)
+- Space: O(1)
