@@ -222,3 +222,17 @@ Notes:
 - Moved pointers based on current sum vs target
 - Time: O(n)
 - Space: O(1)
+
+## Day 15 – Feb 11, 2026
+
+Problem:
+- Leetcode 20. Valid Parentheses
+
+Topics:
+- Stack
+
+Notes:
+- Used stack to track opening brackets
+- Matched closing brackets using a hashmap
+- Time: O(n)
+- Space: O(n)
