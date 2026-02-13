@@ -236,3 +236,19 @@ Notes:
 - Matched closing brackets using a hashmap
 - Time: O(n)
 - Space: O(n)
+
+## Day 16 – Feb 12, 2026
+
+Problem:
+- Leetcode 121. Best Time to Buy and Sell Stock
+
+Topics:
+- Array
+- Greedy
+
+Notes:
+- Tracked minimum price while iterating
+- Calculated profit at each step
+- Updated maximum profit in one pass
+- Time: O(n)
+- Space: O(1)
