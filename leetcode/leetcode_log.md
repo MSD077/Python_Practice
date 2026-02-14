@@ -252,3 +252,18 @@ Notes:
 - Updated maximum profit in one pass
 - Time: O(n)
 - Space: O(1)
+
+## Day 17 – Feb 13, 2026
+
+Problem:
+- Leetcode 215. Kth Largest Element in an Array
+
+Topics:
+- Heap (Priority Queue)
+
+Notes:
+- Maintained a min-heap of size k
+- Pushed each element into heap
+- Removed smallest element when heap size exceeded k
+- Time: O(n log k)
+- Space: O(k)
