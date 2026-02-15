@@ -267,3 +267,19 @@ Notes:
 - Removed smallest element when heap size exceeded k
 - Time: O(n log k)
 - Space: O(k)
+
+## Day 18 – Feb 14, 2026
+
+Problem:
+- Leetcode 347. Top K Frequent Elements (Heap solution)
+
+Topics:
+- Heap (Priority Queue)
+
+Notes:
+- Used Counter to count frequency of each element
+- Stored (frequency, number) in a min-heap
+- Maintained heap size k by removing smallest frequency
+- Returned elements from heap as final answer
+- Time: O(n log k)
+- Space: O(n)
