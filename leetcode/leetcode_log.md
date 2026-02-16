@@ -283,3 +283,19 @@ Notes:
 - Returned elements from heap as final answer
 - Time: O(n log k)
 - Space: O(n)
+
+## Day 19 – Feb 15, 2026
+
+Problem:
+- Leetcode 973. K Closest Points to Origin
+
+Topics:
+- Heap (Priority Queue)
+
+Notes:
+- Computed squared distance (x^2 + y^2)
+- Used max-heap (simulated with negative distance)
+- Maintained heap size k by removing farthest point
+- Heap always stored k closest points
+- Time: O(n log k)
+- Space: O(k)
