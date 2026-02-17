@@ -299,3 +299,20 @@ Notes:
 - Heap always stored k closest points
 - Time: O(n log k)
 - Space: O(k)
+
+## Day 20 – Feb 16, 2026
+
+Problem:
+- Leetcode 1046. Last Stone Weight
+
+Topics:
+- Heap (Max Heap)
+- Greedy
+
+Notes:
+- Converted array into max-heap using negative values
+- Repeatedly removed two largest stones
+- Inserted difference back into heap if not equal
+- Continued until one or zero stones remained
+- Time: O(n log n)
+- Space: O(n)
