@@ -316,3 +316,19 @@ Notes:
 - Continued until one or zero stones remained
 - Time: O(n log n)
 - Space: O(n)
+
+## Day 21 – Feb 17, 2026
+
+Problem:
+- Leetcode 621. Task Scheduler
+
+Topics:
+- Greedy
+- Frequency Counting
+- Mathematical Optimization
+
+Notes:
+- Identified most frequent task (max_count)
+- Used formula: (max_count - 1) * (n + 1) + max_count_tasks
+- Time: O(n)
+- Space: O(1)
