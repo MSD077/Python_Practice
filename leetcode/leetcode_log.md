@@ -332,3 +332,20 @@ Notes:
 - Used formula: (max_count - 1) * (n + 1) + max_count_tasks
 - Time: O(n)
 - Space: O(1)
+
+## Day 22 – Feb 18, 2026
+
+Problem:
+- Leetcode 3. Longest Substring Without Repeating Characters
+
+Topics:
+- Sliding Window
+- Two Pointers
+- Hash Set
+
+Notes:
+- Implemented variable sliding window to maintain substring with unique characters.
+- Used a set to track characters in current window.
+- Shrunk window from left when duplicate was found.
+- Time: O(n)
+- Space: O(min(n, charset size))
