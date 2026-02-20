@@ -349,3 +349,20 @@ Notes:
 - Shrunk window from left when duplicate was found.
 - Time: O(n)
 - Space: O(min(n, charset size))
+
+## Day 23 – Feb 19, 2026
+
+Problem:
+- Leetcode 219. Contains Duplicate II
+
+Topics:
+- Sliding Window
+- Hash Map
+- Array
+
+Notes:
+- Stored last seen index of each number in a hashmap.
+- Checked if current index minus last seen index was <= k.
+- Updated index after each iteration to keep most recent occurrence.
+- Time: O(n)
+- Space: O(n)
