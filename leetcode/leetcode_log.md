@@ -366,3 +366,22 @@ Notes:
 - Updated index after each iteration to keep most recent occurrence.
 - Time: O(n)
 - Space: O(n)
+
+## Day 24– Feb 20, 2026
+
+Problem:
+- Leetcode 567. Permutation in String
+
+Topics:
+- Sliding Window (Fixed Size)
+- Hash Map
+- Frequency Counting
+
+Notes:
+- Used Counter to track frequency of s1.
+- Maintained fixed-size window of length len(s1) in s2.
+- Updated frequency by adding right character and removing left character.
+- Deleted keys when frequency reached zero to maintain clean comparison.
+- Compared window frequency with target frequency at each step.
+- Time: O(n)
+- Space: O(1) (bounded by character set size)
