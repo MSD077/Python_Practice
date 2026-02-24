@@ -385,3 +385,21 @@ Notes:
 - Compared window frequency with target frequency at each step.
 - Time: O(n)
 - Space: O(1) (bounded by character set size)
+
+## Day 25 – Feb 23, 2026
+
+Problem:
+- Stratascratch SQL: Highest Daily Order Cost (Feb–May 2019)
+
+Topics:
+- SQL CTE
+- Aggregation
+- Group By
+- Join
+- Date Filtering
+
+Notes:
+- Created first CTE to compute total order cost per customer per day within date range ('2019-02-01' to '2019-05-01').
+- Used SUM(total_order_cost) and grouped by first_name and order_date.
+- Created second CTE to compute maximum total order cost per day.
+- Joined both CTEs on order_date and total sum to retrieve customers who had the highest order total for each day.
