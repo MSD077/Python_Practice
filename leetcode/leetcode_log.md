@@ -403,3 +403,18 @@ Notes:
 - Used SUM(total_order_cost) and grouped by first_name and order_date.
 - Created second CTE to compute maximum total order cost per day.
 - Joined both CTEs on order_date and total sum to retrieve customers who had the highest order total for each day.
+
+## Day 26 – Feb 24, 2026
+
+Problem:
+- Stratascratch SQL: New Products (ID 10318)
+
+Topics:
+- SQL Aggregation
+- Conditional Aggregation (CASE WHEN)
+- Group By
+
+Notes:
+- Grouped data by company_name.
+- Used conditional aggregation to count products launched in 2020 and 2019 separately.
+-
