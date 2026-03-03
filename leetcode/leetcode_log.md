@@ -417,4 +417,20 @@ Topics:
 Notes:
 - Grouped data by company_name.
 - Used conditional aggregation to count products launched in 2020 and 2019 separately.
--
+
+## Day 27 – Mar 02, 2026
+
+Problem:
+- Stratascratch SQL: Users With Second Transaction Within 7 Days
+
+Topics:
+- SQL CTE
+- Window Function (ROW_NUMBER)
+- Self Join
+- Date Difference Filtering
+
+Notes:
+- Created CTE to assign row numbers per user ordered by created_at.
+- Used ROW_NUMBER() with PARTITION BY user_id to identify first and second transactions.
+- Self-joined CTE to pair first (rn = 1) and second (rn = 2) transactions.
+- Filtered users where second transaction occurred between 1 and 7 days after first transaction.
